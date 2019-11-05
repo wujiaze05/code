@@ -1,6 +1,9 @@
 # code
 Source code for python, shell, vim and other stuffs
 
+# https://wujz@bitbucket.org/wujz/cxx.git/
+
+
 # git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 #include <stdio.h>
