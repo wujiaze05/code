@@ -2,8 +2,8 @@
 message( "This is a project example" )
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread -fPIC")
-set(CMAKE_CXX_FLAGS_DEBUG "-O0 -ggdb -D_DEBUG")
-set(CMAKE_CXX_FLAGS_RELEASE "-O1 -DNDEBUG")
+set(CMAKE_CXX_FLAGS_DEBUG "-O0 -ggdb -Wall -D_DEBUG")
+set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG")
 
 
 include_directories(${CMAKE_SOURCE_DIR})
